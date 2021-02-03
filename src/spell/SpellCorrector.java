@@ -3,9 +3,6 @@ package spell;
 import java.io.*;
 import java.util.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-
 public class SpellCorrector implements ISpellCorrector {
 
     private final Trie dictionary = new Trie();
